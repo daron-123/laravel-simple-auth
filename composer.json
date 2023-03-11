@@ -12,6 +12,7 @@
             "email": "lamalem@uit.ac.ma"
         }
     ],
+    "license": "MIT",
     "require": {},
     "minimum-stability": "dev",
     "prefer-stable": true,
