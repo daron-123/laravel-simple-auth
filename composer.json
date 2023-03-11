@@ -1,0 +1,23 @@
+{
+    "name": "ylamalem/laravel-simple-auth",
+    "description": "This package for creating simple auth",
+    "autoload": {
+        "psr-4": {
+            "Ylamalem\\LaravelSimpleAuth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lamalem Yasser",
+            "email": "lamalem@uit.ac.ma"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ylamalem\\LaravelSimpleAuth\\YAuthServiceProvider"
+            ]
+        }
+    }
+}
