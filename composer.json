@@ -11,6 +11,11 @@
     "require": {},
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Ylamalem\\LaravelSimpleAuth\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
