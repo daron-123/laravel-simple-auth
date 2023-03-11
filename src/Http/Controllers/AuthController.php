@@ -47,7 +47,7 @@ class AuthController extends Controller
         User::create([
             'name' => $request->get('name'),
             'email' => $request->get('email'),
-            'password' => Hash::make($request->get('email'))
+            'password' => Hash::make($request->get('password'))
         ]);
 
         return redirect()->intended('/');
