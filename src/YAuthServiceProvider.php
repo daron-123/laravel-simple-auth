@@ -23,7 +23,8 @@ class YAuthServiceProvider extends ServiceProvider
             $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
         });
         $this->publishes([
-            __DIR__.'/../views/' => resource_path('views/')
+            __DIR__.'/../views/' => resource_path('views/') ,
+            __DIR__.'/Controllers/' => app_path('Http/Controllers/')
         ], 'YAuth');
     }
 }

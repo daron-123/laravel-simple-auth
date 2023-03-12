@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Ylamalem\LaravelSimpleAuth\Http\Controllers\AuthController;
+use App\Http\Controllers\AuthController;
 
 /*
  * Auth Routes
