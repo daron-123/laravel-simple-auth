@@ -24,7 +24,7 @@ class YAuthServiceProvider extends ServiceProvider
         });
         $this->publishes([
             __DIR__.'/../views/' => resource_path('views/') ,
-            __DIR__.'Http/Controllers/' => app_path('Http/Controllers/')
+            __DIR__.'/Http/Controllers/' => app_path('Http/Controllers/')
         ], 'YAuth');
     }
 }
