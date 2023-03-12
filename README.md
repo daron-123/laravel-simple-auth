@@ -1,3 +1,6 @@
+## About This Package
+
+This package help you to create a simple laravel auth using only blade.
 
 
 - composer require ylamalem/laravel-simple-auth:dev-main
